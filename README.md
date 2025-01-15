@@ -162,6 +162,43 @@ Refer to ref4 to identify the differences to when malicious PCAP file is ingeste
 <img src="https://github.com/mullarcyber/Arkime-images/blob/20f294103a5cd8dc284aea0bd668b548c0207e51/8.2.png" />
 <img src="https://github.com/mullarcyber/Arkime-images/blob/20f294103a5cd8dc284aea0bd668b548c0207e51/8.3.png" />
 
+### Arkime cont3xt Overview
+
+Cont3xt is a powerful add-on for Arkime that enhances investigations by providing contextual intelligence. It allows analysts to gather additional details about network traffic such as IPs, domains, URLs, emails, phone numbers, or hashes, making it easier to connect the dots during threat investigations,by enabling cont3xt, you enhance arkime’s capabilities, making it a more effective tool for proactive threat detection and response.
+
+Configure cont3xt
+sudo /opt/arkime/bin/Configure --cont3xt
+Edit the configuration file:
+
+sudo nano /opt/arkime/etc/cont3xt.ini
+Provide the Elasticsearch location:http://localhost:9200
+Add Password.
+Uncomment the line: port=3218
+(This is the port on which cont3xt will listen.)
+Restart the cont3xt service:
+
+systemctl restart arkimecont3xt.service
+
+<img src="https://github.com/mullarcyber/Arkime-images/blob/60eae1074dad8a9cb3015d8972fa09a25c6a7b41/cont3xt1.png" />
+<img src="https://github.com/mullarcyber/Arkime-images/blob/60eae1074dad8a9cb3015d8972fa09a25c6a7b41/cont3xt2.png" />
+
+### Enrichment of IOCs
+
+In the settings, navigate to the integrations section, where you’ll find numerous vendors available to enrich the IoCs. For this lab, I registered accounts with AbuseIPDB and AlienVault OTX. I obtained a license key from AlienVault and also created a license key under the API section with AbuseIPDB, which I will demonstrate.
+
+<img src="https://github.com/mullarcyber/Arkime-images/blob/36e28a5cdc862881e7c6d63fe39ffa63d0eea830/iocs%20integration.png" />
+<img src="https://github.com/mullarcyber/Arkime-images/blob/36e28a5cdc862881e7c6d63fe39ffa63d0eea830/AbuseIPDB.png" />
+<img src="https://github.com/mullarcyber/Arkime-images/blob/36e28a5cdc862881e7c6d63fe39ffa63d0eea830/AbuseIPDB.png" />
+
+### Project Conclusion
+Arkime is an incredibly powerful tool that is highly recommended for organizations seeking to capture and monitor their network traffic in real time. Its ability to index, analyze, and visualize packet data makes it an essential asset for enhancing network visibility and security. With features like seamless integration with Elasticsearch, support for threat intelligence enrichment, and tools like cont3xt for contextual analysis, Arkime empowers security teams to detect and respond to threats more efficiently.
+
+This project demonstrates how Arkime provides a robust platform for investigating suspicious activities, performing proactive threat hunting, and enriching security data with additional context. Its scalability and flexibility make it suitable for both lab environments and production networks, allowing organizations to gain actionable insights and improve their overall security posture.
+
+By adopting Arkime, organizations can enhance their incident response capabilities, improve forensic investigations, and maintain better control over their network traffic. This project has showcased the value of Arkime as a critical tool for modern cybersecurity operations.
+
+
+
 
 
 
