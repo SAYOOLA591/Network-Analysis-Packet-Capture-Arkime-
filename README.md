@@ -162,7 +162,7 @@ Refer to ref4 to identify the differences to when malicious PCAP file is ingeste
 <img src="https://github.com/mullarcyber/Arkime-images/blob/20f294103a5cd8dc284aea0bd668b548c0207e51/8.2.png" />
 <img src="https://github.com/mullarcyber/Arkime-images/blob/20f294103a5cd8dc284aea0bd668b548c0207e51/8.3.png" />
 
-### Arkime cont3xt Overview
+### Arkime cont3xt Integration Overview
 
 Cont3xt is a powerful add-on for Arkime that enhances investigations by providing contextual intelligence. It allows analysts to gather additional details about network traffic such as IPs, domains, URLs, emails, phone numbers, or hashes, making it easier to connect the dots during threat investigations,by enabling cont3xt, you enhance arkime’s capabilities, making it a more effective tool for proactive threat detection and response.
 
