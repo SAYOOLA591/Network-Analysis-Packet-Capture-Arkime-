@@ -22,39 +22,24 @@ Arkime is a powerful open-source full-network capture system, ideal for organiza
 
 **Integration with Threat Intelligence**: Arkime can integrate with external threat intelligence feeds to flag suspicious activity in real-time.
 
-## Use Case
-
-**Incident Response**: Facilitates forensic analysis by allowing security teams to quickly search and retrieve specific network traffic related to a security incident.
-
-**Threat Hunting**: Enables proactive identification of suspicious activity by analyzing indexed PCAPs for anomalous patterns or behaviors.
-
-**Compliance Auditing**: Helps organizations meet regulatory requirements by providing detailed visibility and logs of network traffic for audits.
-
-**Performance Troubleshooting**: Assists in diagnosing network performance issues by analyzing packet-level details and identifying bottlenecks or misconfigurations.
-
-**Malware Analysis**: Supports in-depth investigation of malicious activity by capturing and analyzing network traffic associated with malware communications.
-
-**Training and Simulation**: Useful in cybersecurity labs and training programs to simulate attack scenarios and analyze network traffic patterns.
 
 ### Skills Learned
 
-- Network Traffic Analysis: Capturing, indexing, and analyzing PCAP files to detect anomalies and threats.
-- System Administration: Installing and managing Linux-based services like Elasticsearch and Arkime.
-- Tool Integration: Configuring Arkime with Elasticsearch, MaxMind, and cont3xt for enriched threat intelligence.
-- Security Practices: Investigating Indicators of Compromise (IoCs) and proactively responding to threats.
-- Command-Line Proficiency: Using Linux commands for service management, configuration, and automation.
-- Logging and Debugging: Reviewing logs and troubleshooting deployment issues.
-- Hands-On Lab Setup: Creating a safe sandbox environment for malware traffic analysis.
-- Visualization Skills: Using the Arkime GUI for traffic insights and actionable intelligence.
+- Capturing, indexing, and analyzing PCAP files to detect anomalies and threats.
+- Installing and managing Linux-based services like Elasticsearch and Arkime.
+- Configuring Arkime with Elasticsearch, MaxMind, and cont3xt for enriched threat intelligence.
+- Investigating Indicators of Compromise (IoCs) and proactively responding to threats.
+- Using Linux commands for service management, configuration, and automation.
+- Creating a safe sandbox environment for malware traffic analysis.
+- Using the Arkime GUI for traffic insights and actionable intelligence.
 
-### Tools Used
+### Technologies
 
-- Arkime the core tool for capturing, indexing, and analyzing network traffic in PCAP format.
-- Elasticsearch a search and analytics engine used to store and query indexed packet data from Arkime.
-- GeoIP databases for enriching network traffic data (MaxMind) with geographical information.
-- A resource for downloading real-world PCAP samples to test and analyze in Arkime from Malware Traffic Analysis.
+- Arkime
+- Elasticsearch
+- GeoIP databases for enriching network traffic data (MaxMind)
+- Malicious sample from Malware Traffic Analysis.
 - The contextual intelligence gathering to enhance technical investigations with cont3xt.
-- Linux Command-Line Tools Essential for managing services, editing configurations (nano), and automating tasks.
 
 ## Steps
 
