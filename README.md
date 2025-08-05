@@ -123,12 +123,17 @@ Integrating MaxMind Geo with Arkime is crucial because it enriches network traff
 
 *Ref 7: **Run the GeoIP update tool***
 
+```plaintext
+
 sudo geoipupdate
 
 Restart the Arkime capture service to apply the updates:
 sudo systemctl restart arkimecapture.service
+
 Check the status to ensure the service is running:
 sudo systemctl status arkimecapture.service
+```
+##
 
 <img src="https://github.com/mullarcyber/Arkime-images/blob/20f294103a5cd8dc284aea0bd668b548c0207e51/7.png" />
 
