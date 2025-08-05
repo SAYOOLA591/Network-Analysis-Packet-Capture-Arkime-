@@ -133,7 +133,6 @@ sudo systemctl restart arkimecapture.service
 Check the status to ensure the service is running:
 sudo systemctl status arkimecapture.service
 ```
-##
 
 <img src="https://github.com/mullarcyber/Arkime-images/blob/20f294103a5cd8dc284aea0bd668b548c0207e51/7.png" />
 
@@ -142,7 +141,9 @@ sudo systemctl status arkimecapture.service
 Download PCAP files from Malware Traffic Analysis.
 Place the PCAP files in your working directory and ingest them into Arkime:
 
-sudo /opt/arkime/bin/capture --copy -m -R .
+```plaintext
+sudo /opt/arkime/bin/capture --copy -m -R
+```
 
 Refer to ref4 to identify the differences to when malicious PCAP file is ingested.
 
